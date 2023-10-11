@@ -1,0 +1,17 @@
+{
+  "name": "babelTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js --out-file bundle.js"
+  },
+  "repository": "git@github.com:bubinbei/babelTest.git",
+  "author": "Roma <bubinbei@yandex.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15"
+  }
+}
